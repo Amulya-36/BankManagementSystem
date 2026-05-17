@@ -13,6 +13,7 @@ A Java console-based banking application with MySQL backend.
 - Maven
 
 ## Project Structure
+'''
 src/
 └── main/
 └── java/
@@ -22,6 +23,7 @@ src/
 ├── service/    → All service interfaces and implementations
 ├── util/       → Database connection
 └── main/       → Main.java (entry point)
+'''
 ## Setup
 1. Create MySQL database using the provided SQL scripts
 2. Copy `db.properties.example` to `db.properties` and add your credentials:
